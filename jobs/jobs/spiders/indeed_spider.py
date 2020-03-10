@@ -10,6 +10,7 @@ class IndeedSpider(Spider):
         "https://www.indeed.com/jobs?q=python&l=Seattle%2C+WA",
     ]
 
+    # FIXME: Fix so it only scrapes certain elements
     def parse(self, response):
 
         page = response.url.split("/")[-2]

@@ -6,6 +6,7 @@ A web scraper to find Python jobs in the Puget Sound.
 
 * Python 3
 * Scrapy
+* BeautifulSoup 4
 * HTML 5
 * CSS 3
 
